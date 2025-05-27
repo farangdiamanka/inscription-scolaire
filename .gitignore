@@ -1,1 +1,37 @@
 
+#### 📄 `.gitignore`
+```gitignore
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime*
+
+# Database
+*.sql.bak
+database/backups/
+
+# Build
+dist/
+build/
